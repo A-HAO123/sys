@@ -19,6 +19,12 @@
     </properties>
 
     <dependencies>
+        <!-- 项目热部署 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
         <!-- 通用mapper -->
         <dependency>
             <groupId>tk.mybatis</groupId>
